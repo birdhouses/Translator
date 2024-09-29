@@ -6,7 +6,7 @@ import os
 import pandas as pd
 
 def main():
-    st.title("Robust Translator Application")
+    st.title("AI Translator")
 
     assistant_id = os.getenv('OPENAI_ASSISTANT_ID')
     translator = Translator(assistant_id)
